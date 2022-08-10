@@ -1,0 +1,42 @@
+.stock{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    width: 80vw;
+}
+
+.stock_details{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    background-color: beige;
+}
+
+
+.stock_details > div{
+    /* background-color: red; */
+    width: 20vw;
+    height: 100 px;
+    /* margin-right: 5vw;
+    margin-left: 5vw; */
+}
+
+.stock_details_logo{
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+}
+
+.stock_details_left{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.stock_details_right{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}

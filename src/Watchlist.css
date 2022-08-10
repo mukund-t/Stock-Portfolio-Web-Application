@@ -1,0 +1,11 @@
+.watchlist{
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    margin-top: 5vh;
+    flex-direction: column;
+}
+
+.watchlist_item{
+    margin: 0.5vh;
+}
